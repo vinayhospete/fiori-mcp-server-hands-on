@@ -11,7 +11,7 @@
     <insert_link_here> 
 
     Include technical key and business key for all entities.
-    Use MCP servers and follow all rules.
+    Use MCP servers and read all rule files.
     ```
 
 3. In the web browser tab with your Figma Design, select **Screen 1 - List Report**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
