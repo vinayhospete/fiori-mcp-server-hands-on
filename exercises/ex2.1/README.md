@@ -11,9 +11,9 @@
 
 3. Press `Enter` to execute the task.
 
-4. Copilot executes the implementation plan.
+    ![plan mode](../ex2.1/images/initial-load.png)
 
-5. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
+4. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
 
 ## Summary
 
