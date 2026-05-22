@@ -1,54 +1,34 @@
 # Modify travel object page based on Figma Design
 
-1. Close previous task.
+1. Create a new chat.
 
-    <img src="../ex2.0/images/close-task.png" alt="close task" width="60%"/>
+    <img src="../ex2.0/images/new-task.png" alt="close task" width="60%"/>
 
-2. Select **Plan mode**.
-
-    ![plan mode](../ex2.0/images/plan-mode.png)
-
-3. Enter the following prompt in the task input (don't execute yet):
+2. Enter the following prompt in the task input (don't execute yet):
     ```
-    Modify the travels object page based on the figma design from this link
+    Modify the travel object page based on the Figma design:
     <insert_link_here>
-    
-    The object page shall include a bookings table section.
-    Add mock data for the bookings table.
+
+    - Reorganize the General Information section into subsections following the Figma design
+    - Align all fields, sections, and structure precisely with the Figma design
+    - Add a bookings table section displaying flight booking details
+    - Generate mock data for the bookings table.
     ```
 
-4. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
+3. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.
 
-5. Insert the link into the prompt text.
+4. Insert the link into the prompt text.
 
-6. Press `Enter` to start the task.
+5. Press `Enter` to start the task.
 
-7. Cline will generate an **Implementation Plan**.
+6. Copilot will execute the task.
+    ![travel object page](./images/execute-objpage.png)
 
-8. Review the plan once it's ready.
-
-9. Switch to **Act mode**.
-
-10. Cline will execute the implementation plan.
-
-11. After completion, verify the object page in the application preview:
-    - Verify object page header contains both title and description.
-    - Make sure fields in the **General Information** are arranged as per the Figma Design.
+7. After completion, verify the object page in the application preview:
+    - Verify the object page header contains both title and description.
+    - Make sure the fields in the **General Information** section are arranged as per the Figma Design.
 
     ![travel object page](./images/travel-objpage.png)
-
-## Troubleshoot
-
-1. Update the Object Page Title and Description based on the Figma Design. Use the following prompt:
-    ```
-    Set the travel description as the object page title and display the travel title below it.
-    ```
-
-2. Some fields in the **General Information** section are missing. Use the following prompt and insert the Figma Design link into the prompt text:
-    ```
-    Arrange or add fields in the General Information section as shown in figma design from this link
-    <insert_link_here>.
-    ```
 
 ## Summary
 
