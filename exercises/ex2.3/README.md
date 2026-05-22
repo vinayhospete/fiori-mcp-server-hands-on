@@ -13,7 +13,8 @@
     ```
 
 4. Press `Enter` to begin. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
-    ![analytical chart](./images/doc-search-fiori-mcp.png)
+
+    <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 
 8. After completion, verify that both the analytical chart and table are displayed on the list report page.
 

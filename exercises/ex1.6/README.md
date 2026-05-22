@@ -61,11 +61,10 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 ## Configure MCP servers
 
 1. From the menu in the top-left corner, open the file mcp.json.
-     ![Open file](./images/ex0img29.png)
+     <img src="./images/ex0img29.png" alt="open file" width="60%"/>
 
 2. Copy file path `/home/user/.vscode/data/User/mcp.json` and click OK
-
-    ![mcp json](./images/ex0img30.png)
+    <img src="./images/ex0img30.png" alt="mcp json" width="80%"/>
 
    - Replace with below content.
      ```json
@@ -114,7 +113,7 @@ As a participant of the hands-on tutorial, you should already be setup with acce
      - close file `mcp.json`.
 
 5. Verify below mcp servers are installed.
-    ![mcp server installed](./images/ex0img31.png)
+    <img src="./images/ex0img31.png" alt="mcp server installed" width="60%"/>
 
 
 ## Configure Github Copilot (AI Client)
@@ -124,10 +123,10 @@ As a participant of the hands-on tutorial, you should already be setup with acce
     ![copilot](./images/ex0img32.png)
 
 2. Before switching the LLM model, open Manage Model.
-    ![copilot](./images/ex0img34.png)
+    <img src="./images/ex0img34.png" alt="copilot" width="60%"/>
 
 3. Hide all other LLMs except Claude Sonnet 4.5.
-    ![copilot](./images/ex0img35.png)
+    <img src="./images/ex0img35.png" alt="copilot" width="80%"/>
 
 4. Select model **Claude Sonnet 4.5**.
 

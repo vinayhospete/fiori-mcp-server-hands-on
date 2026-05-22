@@ -11,7 +11,7 @@
 
 3. Press `Enter` to execute the task.
 
-    ![plan mode](../ex2.1/images/initial-load.png)
+    <img src="./images/initial-load.png" alt="copilot" width="60%"/>
 
 4. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
 

@@ -10,7 +10,8 @@
     ```
 
 3. Press `Enter` to execute task.
-    ![destination](./images/destination.png)
+
+    <img src="./images/destination.png" alt="copilot" width="60%"/>
 
 
 4. After completion, confirm the destination column appears in the list report.
