@@ -64,57 +64,31 @@ As a participant of the hands-on tutorial, you should already be setup with acce
      <img src="./images/ex0img29.png" alt="open file" width="60%"/>
 
 2. Copy file path `/home/user/.vscode/data/User/mcp.json` and click OK
+
     <img src="./images/ex0img30.png" alt="mcp json" width="80%"/>
 
-   - Replace with below content.
+   - Append with below content.
      ```json
-        {
-            "servers": {
-                "service-center-mcp": {
-                    "command": "service-center-mcp"
-                },
-                "fiori-mcp": {
-                    "timeout": 600,
-                    "type": "stdio",
-                    "command": "npx",
-                    "args": [
-                        "-y",
-                        "@sap-ux/fiori-mcp-server"
-                    ]
-                },
-                "cap-mcp": {
-                    "disabled": false,
-                    "timeout": 60,
-                    "type": "stdio",
-                    "command": "npx",
-                    "args": [
-                        "-y",
-                        "@cap-js/mcp-server"
-                    ],
-                    "env": {}
-                },
-                "Framelink_Figma_MCP": {
-                    "type": "stdio",
-                    "timeout": 60,
-                    "command": "npx",
-                    "args": [
-                        "-y",
-                        "figma-developer-mcp",
-                        "--figma-api-key=YOUR-KEY",
-                        "--stdio"
-                    ]
-                }
-            },
-            "inputs": []
+        "Framelink_Figma_MCP": {
+            "type": "stdio",
+            "timeout": 60,
+            "command": "npx",
+            "args": [
+                "-y",
+                "figma-developer-mcp",
+                "--figma-api-key=YOUR-KEY",
+                "--stdio"
+            ]
         }
      ```
-     - Insert the personal access token created in the previous exercise into the Framelink_Figma_MCP configuration by replacing YOUR-KEY in --figma-api-key=YOUR-KEY with your token.
+     <img src="./images/ex0img36.png" alt="mcp json" width="80%"/>
 
-     - close file `mcp.json`.
+4. Insert the personal access token created in the previous exercise into the Framelink_Figma_MCP configuration by replacing YOUR-KEY in --figma-api-key=YOUR-KEY with your token.
 
-5. Verify below mcp servers are installed.
+5. close file `mcp.json`.
+
+6. Verify below mcp servers are installed.
     <img src="./images/ex0img31.png" alt="mcp server installed" width="60%"/>
-
 
 ## Configure Github Copilot (AI Client)
 
@@ -122,15 +96,9 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
     ![copilot](./images/ex0img32.png)
 
-2. Before switching the LLM model, open Manage Model.
-    <img src="./images/ex0img34.png" alt="copilot" width="60%"/>
+2. Select model **Claude Sonnet 4.5**.
 
-3. Hide all other LLMs except Claude Sonnet 4.5.
-    <img src="./images/ex0img35.png" alt="copilot" width="80%"/>
-
-4. Select model **Claude Sonnet 4.5**.
-
-    ![copilot](./images/ex0img33.png)
+    ![copilot](./images/ex0img34.png)
 
 
 ## Summary
