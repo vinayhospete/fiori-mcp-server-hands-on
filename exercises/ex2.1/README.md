@@ -6,14 +6,21 @@
 
 2. Copy and paste the following prompt into the task input:
     ```
-    I want the data to load automatically when I open the list report. Consult MCP servers.
+    I want the data to load automatically when I open the list report.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
     ```
 
-3. Press `Enter` to execute the task.
+3. Execute the prompt. Copilot prepares an Implementation Plan.
+
+    <img src="./images/imp-plan.png" alt="copilot" width="70%"/>
+
+
+4. Confirm the implementation plan by responding with "Yes" or "Proceed".
 
     <img src="./images/initial-load.png" alt="copilot" width="60%"/>
 
-4. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
+5. When the task is complete, verify the data is loaded on the list report table without pressing the **GO** button.
 
 ## Summary
 

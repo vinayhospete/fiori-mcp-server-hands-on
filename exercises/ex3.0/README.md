@@ -13,6 +13,8 @@
     - Align all fields, sections, and structure precisely with the Figma design
     - Add a bookings table section displaying flight booking details
     - Generate mock data for the bookings table.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
     ```
 
 3. In the web browser tab with your Figma Design, select **Screen 2 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.

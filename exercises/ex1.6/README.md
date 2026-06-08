@@ -36,6 +36,14 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
     ![image](images/ex0img5.png)
 
+## Install SAP Fiori MCP Server
+- Open new terminal and execute command `npm i -g @sap-ux/fiori-mcp-server`
+
+    ![image](images/open-terminal.png)
+
+    ![image](images/install-fiori-mcp.png)
+    
+
 ## Open your project folder
 
 1. Select the **explorer icon** on the left side.
@@ -85,9 +93,8 @@ As a participant of the hands-on tutorial, you should already be setup with acce
 
 4. Insert the personal access token created in the previous exercise into the Framelink_Figma_MCP configuration by replacing YOUR-KEY in --figma-api-key=YOUR-KEY with your token.
 
-5. close file `mcp.json`.
+5. close `mcp.json` file and verify below mcp servers are installed.
 
-6. Verify below mcp servers are installed.
     <img src="./images/ex0img31.png" alt="mcp server installed" width="60%"/>
 
 ## Configure Github Copilot (AI Client)

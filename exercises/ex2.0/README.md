@@ -10,7 +10,7 @@
     <insert_link_here> 
 
     Include technical key and business key for all entities.
-    Create a plan first, then proceed with implementation.
+    Create implementation plan first, then proceed.
     Consult MCP servers.
     ```
 
@@ -27,7 +27,7 @@
     <img src="./images/implementation-plan.png" alt="copilot" width="80%"/>
 
 7. When Copilot asks:
-- "Shall I proceed with this implementation plan?", confirm by responding with "Yes".
+- "Shall I proceed with this implementation plan?", confirm by responding with "Yes" or "Proceed".
 - Click Allow when prompted to run Bash commands
 
     <img src="./images/implementation-plan2.png" alt="copilot" width="80%"/>
@@ -40,7 +40,7 @@
     <img src="./images/file-changes.png" alt="copilot" width="80%"/>
 
 
-9. After completing all the tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
+9. After completing all the to-dos/tasks, Copilot confirms the successful creation of the CAP project and Fiori app.
 
 10. Execute the prompt `/sap-fiori preview application`. The application should automatically open in your browser, displaying a travel list report application that matches the list report Figma Design.
 

@@ -6,10 +6,12 @@
 
 2. Copy and paste the following prompt into the task input:
     ```
-    Create and add a new column "Destination" to the list report table
+    Create and add a new column "Destination" to the list report table.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
     ```
 
-3. Press `Enter` to execute task.
+3. Execute the prompt. Copilot prepares an Implementation Plan.
 
     <img src="./images/destination.png" alt="copilot" width="60%"/>
 

@@ -9,7 +9,8 @@
     Create a booking detail object page based on the Figma design from this link
     <insert_link_here>
 
-    Use the available MCP servers.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
     ```
 
 3. In the web browser tab with your Figma Design, select **Screen 3 - Object Page**, right-click on it, and select **Copy/Paste as** → **Copy link to selection**.

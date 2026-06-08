@@ -9,10 +9,11 @@
     Add an analytical column chart to the List Report (ALP) that displays the average price per destination.
     Configure Price as an aggregated property in the analytical chart,
     and use the Views configuration to display the analytical chart above the table.
-    Use fiori mcp
+    Create implementation plan first, then proceed with confirmation.
+    Consult Fiori MCP server.
     ```
 
-4. Press `Enter` to begin. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
+4. Execute the prompt. Copilot will consult the Fiori MCP server to access documentation on how to implement analytical charts.
 
     <img src="./images/doc-search-fiori-mcp.png" alt="copilot" width="60%"/>
 

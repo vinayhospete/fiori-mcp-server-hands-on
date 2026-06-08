@@ -9,7 +9,8 @@
     Your task is to visualize the description field of the trip as an rich text editor on the object page of the travel management app. Implement in two steps:
      1. Add a custom section at the last position of the object page
      2. Use the rich text editor building block in the new section to show the description field. Ensure each button group for the Rich text editor has an ID
-     Follow the workspace rules and use MCP servers.
+    Create implementation plan first, then proceed with confirmation.
+    Consult MCP servers.
 
     ```
 
